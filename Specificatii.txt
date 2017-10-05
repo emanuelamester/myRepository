@@ -1,0 +1,24 @@
+					Proiect PW
+
+Nume Student: Mester Emanuela
+	
+	Tema
+
+	Proiectul consta in dezvoltarea si testarea unui site pentru un magazin de ceaiuri.
+In vederea construirii proiectul trebuie sa respecte urmatoarele cerinte si specificatii.
+
+
+	Cerinte:
+
+
+1.Functie pentru autentificarea administratorului si clientului;
+2.functie pentru adaugarea/stergerea produselor de catre administrator;
+3.Functie care permite plasarea de comenzi de catre client.
+
+
+	Specificatii:
+
+
+* Pentru partea de Front-End vom folosii: HTML, CSS si Javascript;
+* Pentru partea de Back-End vom folosii: PHP;
+* Ca si editor de text vom folosi Notepad++.
