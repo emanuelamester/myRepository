@@ -26,7 +26,10 @@ include("auth.php");
   <div id="margineStanga">
 		<div id="stanga">
 		<div id="navigare">
-		
+		<h3><font face = "Times New Roman" size = "4"><div align="center">Shop</div></font></h3>
+		<a href="imagini.php"><div align="center"><img src="imagini/magazin.jpg" /> </div></a>
+		<a href="imagini.php"><div align="center"><div valign="bottom"><img src="imagini/magazin2.jpg" /> </div> </div> </a>
+        <br>
 		
 		
 		</div>
@@ -45,7 +48,7 @@ include("auth.php");
   <h4>Our Location: The Tea House</h4></br>
   <hr/>
   <h4>Piata Unirii 8, Timisoara</h4>
-  <h4>România</h4>
+  <h4>Romania</h4>
   </br>
   <hr/>
   <h5><div align="center">Email: madalinamereu@yahoo.com</div></h5>
