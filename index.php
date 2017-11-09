@@ -21,6 +21,10 @@ include("auth.php");
 		<form action="home.php" method="post"">
 		<div align="right"><input type="submit" value="Logout"/></div>
 		</form>
+    <form action="thankyou.php" method="post"">
+    <div align="right"><input type="submit" value="Feedback"/></div>
+    </form>
+    
 		</div>
   
   <div id="margineStanga">
