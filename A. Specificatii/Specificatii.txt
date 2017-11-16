@@ -1,0 +1,17 @@
+
+	Proiect PW
+
+Proiect realizat de: Mester Emanuela & Mereu Madalina
+
+Tema: 	Proiectul consta in dezvoltarea si testarea unui site pentru un magazin de ceaiuri.
+      	Acesta trebuie sa respecte urmatoarele cerinte si specificatii.
+
+Cerinte:
+	1.functie pentru autentificarea administratorului si clientului;
+	2.functie pentru adaugarea/ stergerea produselor de catre administrator;
+	3.functie care permite plasarea comenzilor de catre client.
+
+Specificatii:
+	* Pentru partea de Front-End folosim: HTML, CSS si Javascript;
+	* Pentru partea de Back-End folosim: PHP;
+	* Ca si editor de text folosim: Notepad++.

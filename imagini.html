@@ -1,22 +1,83 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html>
+<!-- <html xmlns="http://www.w3.org/1999/xhtml"> Optional in HTML5 -->
+
 <head>
-<title>The Tea House</title>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-<link rel="stylesheet" type="text/css" href="style.css" />
-<link rel="Shortcut icon" href="imagini/favicon.ico">
+	<title>The Tea House</title>
+	<meta charset="UTF-8"/> <!-- Este nou in HTML5 si inlocuieste <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> -->
+	
+	<link href="css/style.css" rel="stylesheet"/>
+	<link href="imagini/favicon/favicon.ico" rel="shortcut icon"/>
+
+	<!-- prototype.js, scriptaculous.js, lightbox.js -- sunt pentru butoanele prev, next, close, loading -->
+	<script type="text/javascript" src="js/prototype.js"></script>
+	<script type="text/javascript" src="js/scriptaculous.js?load=effects,builder"></script>
+	<script type="text/javascript" src="js/lightbox.js"></script>
+
+	<link href="lightbox.css" rel="stylesheet" type="text/css" media="screen"/>
 </head>
 
 <body>
-
-
-
-
-
-
-
-</div>
-
+	<div id="intreagaPaginaWeb">
+		<div id="sus">
+			<form action="login.php" method="post">
+				<div align="right">
+					<input type="submit" value="Login"/>
+				</div>
+			</form>
+			
+			<form action="thankyou.php" method="post">
+				<div align="right">
+					<input type="submit" value="Feedback"/>
+				</div>
+			</form>
+			<form action="comand.php" method="post">
+				<div align="right">
+					<input type="submit" value="Command now!"/>
+				</div>
+			</form>
+		</div>
+  
+		<div id="margineStanga">
+			<div id="stanga">
+				<div id="navigare">
+					<h3><font face="Times New Roman" size = "4"><div align="center">Shop</div></font></h3>
+					<a href="imagini.html"><div align="center"><img src="imagini/diviziuni/stanga1.jpg"/></div></a>
+					<a href="imagini.html"><div align="center" valign="bottom"><img src="imagini/diviziuni/stanga2.jpg"/></div></a>
+				</div>
+			</div>
+		</div>
+  
+		<div id="dreapta">
+			<center>
+				<a href="imagini/produse/1.jpg" rel="lightbox[roadtrip]" title="DARJEELING 2ND FLUSH - 21,90 Lei"><img src="imagini/produse/1a.jpg" width="150" height="95" alt="DARJEELING 2ND FLUSH"/></a>
+				<a href="imagini/produse/2.jpg" rel="lightbox[roadtrip]" title="NILGIRI SHIVA - 35,90 Lei"><img src="imagini/produse/2a.jpg" width="150" height="95" alt="NILGIRI SHIVA"/></a>
+				<a href="imagini/produse/3.jpg" rel="lightbox[roadtrip]" title="WU LONG - BOX - 24,90 Lei"><img src="imagini/produse/3a.jpg" width="150" height="95" alt="WU LONG - BOX"/></a>
+				<a href="imagini/produse/4.jpg" rel="lightbox[roadtrip]" title="JASMINE PEARLS - 57,90 Lei"><img src="imagini/produse/4a.jpg" width="150" height="95" alt="JASMINE PEARLS"/></a>
+				<a href="imagini/produse/5.jpg" rel="lightbox[roadtrip]" title="MOLIHUA CHA - JASMIN TEA - 32,90 Lei"><img src="imagini/produse/5a.jpg" width="150" height="95" alt="MOLIHUA CHA - JASMIN TEA"/></a>
+				<a href="imagini/produse/6.jpg" rel="lightbox[roadtrip]" title="ASSAM BRAHMAPUTRA - 21,75 Lei"><img src="imagini/produse/6a.jpg" width="150" height="95" alt="ASSAM BRAHMAPUTRA"/></a>
+				<a href="imagini/produse/7.jpg" rel="lightbox[roadtrip]" title="BANCHA KYOTO - 25,50 Lei"><img src="imagini/produse/7a.jpg" width="150" height="95" alt="BANCHA KYOTO"/></a>
+				<a href="imagini/produse/8.jpg" rel="lightbox[roadtrip]" title="DARJEELING HIMALAYA - 32,90 Lei"><img src="imagini/produse/8a.jpg" width="150" height="95" alt="DARJEELING HIMALAYA"/></a>
+				<a href="imagini/produse/9.jpg" rel="lightbox[roadtrip]" title="DARJEELING 1ST FLUSH - 15,90 Lei"><img src="imagini/produse/9a.jpg" width="150" height="95" alt="DARJEELING 1ST FLUSH"/></a>
+				<a href="imagini/produse/10.jpg" rel="lightbox[roadtrip]" title="NEPAL ILAM ORGANIC - 22,90 Lei"><img src="imagini/produse/10a.jpg" width="150" height="95" alt="NEPAL ILAM ORGANIC"/></a>
+				<a href="imagini/produse/11.jpg" rel="lightbox[roadtrip]" title="DARJEELING AUTUMN ORGANIC - 19,90 Lei"><img src="imagini/produse/11a.jpg" width="150" height="95" alt="DARJEELING AUTUMN ORGANIC"/></a>
+				<a href="imagini/produse/12.jpg" rel="lightbox[roadtrip]" title="TIE GUAN YIN ORGANIC - 23,90 Lei"><img src="imagini/produse/12a.jpg" width="150" height="95" alt="TIE GUAN YIN ORGANIC"/></a>
+				<a href="imagini/produse/13.jpg" rel="lightbox[roadtrip]" title="BLOOMING TEA - 18,90 Lei"><img src="imagini/produse/13a.jpg" width="150" height="95" alt="BLOOMING TEA"/></a>
+				<a href="imagini/produse/14.jpg" rel="lightbox[roadtrip]" title="HUANG YA - 40,90 Lei"><img src="imagini/produse/14a.jpg" width="150" height="95" alt="HUANG YA"/></a>
+				<a href="imagini/produse/15.jpg" rel="lightbox[roadtrip]" title="ROSE - 35,90 Lei"><img src="imagini/produse/15a.jpg" width="150" height="95" alt="ROSE"/></a>
+			</center>
+		</div>
+	
+		<div id="jos">
+			<h4>Our Location: The Tea House<br></br></h4>
+			<hr/>
+			<h4>Piata Unirii 8, Timisoara</h4>
+			<h4>Romania<br></br></h4>
+			<hr/>
+			<h5><div align="center">Email: office@tea-house.ro</div></h5>
+			<h5><div align="center">Phone: 0721 674 578</div></h5>
+		</div>
+		
+	</div>
 </body>
-
 </html>
